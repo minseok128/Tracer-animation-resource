@@ -1,2 +1,54 @@
 # Tracer-anmation-resource
 Tracer-anmation-resource
+
+- [x] video 다운로드
+- [x] video에서 애니메이션에 필요한 부분 자르기
+  - [x] Walk
+  - [x]  Shooting
+  - [x] Reload
+  - [x] Flash
+  - [x] Recall
+  - [x] Hand attack
+  - [x] Pulse
+- [x] 각 영상을 jpg로 변환
+  - [x] Walk
+  - [x]  Shooting
+  - [x] Reload
+  - [x] Flash
+  - [x] Recall
+  - [x] Hand attack
+  - [x] Pulse
+- [x]  pixelit에서 모든 이미지를 pixelate
+  - [x] Walk
+  - [x]  Shooting
+  - [x] Reload
+  - [x] Flash
+  - [x] Recall
+  - [x] Hand attack
+  - [x] Pulse
+- [x] github에 업로드!
+- [x]  pixelate된 이미지를 xpm으로 변환
+  - [x] Walk
+  - [x]  Shooting
+  - [x] Reload
+  - [x] Flash
+  - [x] Recall
+  - [x] Hand attack
+  - [x] Pulse
+- [ ]  xpm 파일을 열어서 green 부분 제거
+  - [ ] Walk
+  - [ ]  Shooting
+  - [ ] Reload
+  - [ ] Flash
+  - [ ] Recall
+  - [ ] Hand attack
+  - [ ] Pulse
+- [ ]  각 애니메이션의 xpm을 모두 모아서 프로젝트에 import
+  - [ ] Walk
+  - [ ]  Shooting
+  - [ ] Reload
+  - [ ] Flash
+  - [ ] Recall
+  - [ ] Hand attack
+  - [ ] Pulse
+- [ ]  개발 시작
