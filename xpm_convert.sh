@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 변환할 이미지가 있는 원본 디렉토리 목록
-SOURCE_DIRS=("flash_pixelated" "hand_attack_pixelated" "pulse_pixelated" "recall_pixelated" \
-    "reload_pixelated" "shot_pixelated" "walk_pixelated")
+SOURCE_DIRS=("flash_final_png" "hand_attack_final_png" "pulse_final_png" "recall_final_png" \
+    "reload_final_png" "shot_final_png" "walk_final_png")
 
 # 원본 디렉토리 목록을 순회
 for DIR in "${SOURCE_DIRS[@]}"; do
