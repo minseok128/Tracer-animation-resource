@@ -3,17 +3,14 @@
 # 변환할 이미지가 있는 원본 디렉토리 목록
 SOURCE_DIRS=("flash-pixelated" "hand-attack-pixelated" "pulse-pixelated" "recall-pixelated" \
     "reload-pixelated" "shot-pixelated" "walk-pixelated")
-# 변환된 이미지를 저장할 대상 디렉토리
-TARGET_DIR="flash-pixelated-xpm"
-
-# 대상 디렉토리가 없으면 생성
-if [ ! -d "$TARGET_DIR" ]; then
-    mkdir "$TARGET_DIR"
-fi
 
 # 원본 디렉토리 목록을 순회
 for DIR in "${SOURCE_DIRS[@]}"; do
     echo "Processing directory: $DIR"
+    TARGET_DIR="${DIR}-xpm"
+    if [ ! -d "$TARGET_DIR" ]; then
+        mkdir "$TARGET_DIR"
+    fi
     # 해당 디렉토리에서 PNG 파일을 찾아 XPM으로 변환
     for FILE in "$DIR"/*.png; do
         # 파일이 존재하는지 확인
