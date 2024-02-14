@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # 변환할 이미지가 있는 원본 디렉토리 목록
-SOURCE_DIRS=("flash-pixelated" "hand-attack-pixelated" "pulse-pixelated" "recall-pixelated" \
-    "reload-pixelated" "shot-pixelated" "walk-pixelated")
+SOURCE_DIRS=("flash_pixelated" "hand_attack_pixelated" "pulse_pixelated" "recall_pixelated" \
+    "reload_pixelated" "shot_pixelated" "walk_pixelated")
 
 # 원본 디렉토리 목록을 순회
 for DIR in "${SOURCE_DIRS[@]}"; do
     echo "Processing directory: $DIR"
-    TARGET_DIR="${DIR}-xpm"
+    TARGET_DIR="${DIR}_xpm"
     if [ ! -d "$TARGET_DIR" ]; then
         mkdir "$TARGET_DIR"
     fi
