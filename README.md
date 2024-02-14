@@ -43,12 +43,12 @@ Tracer-anmation-resource
   - [X] Recall
   - [X] Hand attack
   - [X] Pulse
-- [ ]  각 애니메이션의 xpm을 모두 모아서 프로젝트에 import
-  - [ ] Walk
-  - [ ]  Shooting
-  - [ ] Reload
-  - [ ] Flash
-  - [ ] Recall
-  - [ ] Hand attack
-  - [ ] Pulse
-- [ ]  개발 시작
+- [X]  각 애니메이션의 xpm을 모두 모아서 프로젝트에 import
+  - [X] Walk
+  - [X]  Shooting
+  - [X] Reload
+  - [X] Flash
+  - [X] Recall
+  - [X] Hand attack
+  - [X] Pulse
+- [X]  개발 시작
