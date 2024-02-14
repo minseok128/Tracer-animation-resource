@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 대상 디렉토리 목록
-SOURCE_DIRS=("flash_pixelated_xpm" "hand_attack_pixelated_xpm" "pulse_pixelated_xpm" "recall_pixelated_xpm" \
-"reload_pixelated_xpm" "shot_pixelated_xpm" "walk_pixelated_xpm")
+SOURCE_DIRS=("flash_final" "hand_attack_final" "pulse_final" "recall_final" \
+"reload_final" "shot_final" "walk_final")
 
 # 각 디렉토리를 순회
 for DIR in "${SOURCE_DIRS[@]}"; do

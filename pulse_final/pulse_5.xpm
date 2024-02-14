@@ -9,7 +9,7 @@ static char *pulse_5[] = {
 "O c #257179",
 "+ c #B13E53",
 "@ c #EF7D57",
-"# c #38B764",
+"# c None",
 "$ c #FFCD75",
 "% c #566C86",
 "& c #41A6F6",
