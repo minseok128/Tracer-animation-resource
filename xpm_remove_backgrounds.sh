@@ -12,8 +12,8 @@ for DIR in "${SOURCE_DIRS[@]}"; do
         # 파일이 존재하는지 확인
         if [ -f "$FILE" ]; then
             echo "Processing file: $FILE"
-            # macOS/BSD sed를 사용하여 파일 내부의 "#FFCD75" 문자열을 "None"으로 대체
-            sed -i '' 's/#FFCD75/None/g' "$FILE"
+            # macOS/BSD sed를 사용하여 파일 내부의 "#38B764" 문자열을 "None"으로 대체
+            sed -i '' 's/#38B764/None/g' "$FILE"
         else
             echo "No XPM files found in $DIR."
         fi
