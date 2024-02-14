@@ -1,7 +1,7 @@
 # Tracer-anmation-resource
 Tracer-anmation-resource
 
-- [x] video 다운로드
+- [x] video 다운로드 [full video](https://youtu.be/Rg69MVNdF_A?feature=shared)
 - [x] video에서 애니메이션에 필요한 부분 자르기
   - [x] Walk
   - [x]  Shooting
