@@ -35,14 +35,14 @@ Tracer-anmation-resource
   - [x] Recall
   - [x] Hand attack
   - [x] Pulse
-- [ ]  xpm 파일을 열어서 green 부분 제거
-  - [ ] Walk
-  - [ ]  Shooting
-  - [ ] Reload
-  - [ ] Flash
-  - [ ] Recall
-  - [ ] Hand attack
-  - [ ] Pulse
+- [X]  xpm 파일을 열어서 green 부분 제거
+  - [X] Walk
+  - [X]  Shooting
+  - [X] Reload
+  - [X] Flash
+  - [X] Recall
+  - [X] Hand attack
+  - [X] Pulse
 - [ ]  각 애니메이션의 xpm을 모두 모아서 프로젝트에 import
   - [ ] Walk
   - [ ]  Shooting
