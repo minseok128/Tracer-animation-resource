@@ -4,7 +4,7 @@ static char *pulse_3[] = {
 "1920 1080 5 1 ",
 "  c #5D275D",
 ". c #B13E53",
-"X c #38B764",
+"X c None",
 "o c #566C86",
 "O c #94B0C2",
 /* pixels */
